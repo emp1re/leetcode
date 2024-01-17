@@ -1,6 +1,6 @@
-package main
+package problems
 
-func maxArea(height []int) int {
+func MaxArea(height []int) int {
 	left := 0
 	right := len(height) - 1
 	volume := 0

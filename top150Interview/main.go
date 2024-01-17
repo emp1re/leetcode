@@ -1,11 +1,8 @@
 package main
 
-import (
-	"fmt"
-)
+import "log/slog"
 
 func main() {
-
-	fmt.Println(maxArea([]int{1, 8, 6, 2, 5, 4, 8, 3, 7})) // 49
+	slog.Info("Start...", "main.go")
 
 }
