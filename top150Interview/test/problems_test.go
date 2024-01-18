@@ -7,6 +7,8 @@ import (
 )
 
 func TestProblems(t *testing.T) {
+	list := problems.ListNode{Val: 1, Next: &problems.ListNode{Val: 2, Next: &problems.ListNode{Val: 3, Next: &problems.ListNode{Val: 4, Next: &problems.ListNode{Val: 5, Next: nil}}}}}
+	t.Logf("%s: %t", "141. Linked List Cycle.go", problems.HasCycle(&list))
 
 }
 func BenchmarkMinimumSizeSubarraySum(b *testing.B) {
