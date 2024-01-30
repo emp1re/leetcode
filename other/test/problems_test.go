@@ -18,5 +18,5 @@ func TestProblems(t *testing.T) {
 	t.Logf("%s: %d", "2769. Find the Maximum Achievable Number.go", problems.TheMaximumAchievableX(20, 3))
 	t.Logf("%s: %d", "2798. Number of Employees Who Met the Target.go", problems.NumberOfEmployeesWhoMetTarget([]int{1, 2, 3, 4, 5}, 3))
 	t.Logf("%s: %d", "2942. Find Words Containing Character.go", problems.FindWordsContaining([]string{"hello", "world", "leetcode"}, 'e'))
-
+	t.Logf("%s: %d", "1365. How Many Numbers Are Smaller Than the Current Number.go", problems.SmallerNumbersThanCurrent([]int{8, 1, 2, 2, 3}))
 }
