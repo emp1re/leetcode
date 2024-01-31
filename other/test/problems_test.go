@@ -18,5 +18,16 @@ func TestProblems(t *testing.T) {
 	t.Logf("%s: %d", "2769. Find the Maximum Achievable Number.go", problems.TheMaximumAchievableX(20, 3))
 	t.Logf("%s: %d", "2798. Number of Employees Who Met the Target.go", problems.NumberOfEmployeesWhoMetTarget([]int{1, 2, 3, 4, 5}, 3))
 	t.Logf("%s: %d", "2942. Find Words Containing Character.go", problems.FindWordsContaining([]string{"hello", "world", "leetcode"}, 'e'))
+
 	t.Logf("%s: %d", "1365. How Many Numbers Are Smaller Than the Current Number.go", problems.SmallerNumbersThanCurrent([]int{8, 1, 2, 2, 3}))
+
+	t.Logf("%s: %d", "1512. Number of Good Pairs.go", problems.NumIdenticalPairs([]int{1, 2, 3, 1, 1, 3}))
+	t.Logf("%s: %d", "1672. Richest Customer Wealth.go", problems.MaximumWealth([][]int{{1, 2, 3}, {3, 2, 1}}))
+	t.Logf("%s: %d", "2974. Minimum Number Game.go", problems.NumberGame([]int{1, 2, 3, 4, 5, 6}))
+	t.Logf("%s: %d", "1480. Running Sum of 1d Array.go", problems.RunningSum([]int{1, 2, 3, 4}))
+	t.Logf("%s: %d", "2114. Maximum Number of Words Found in Sentences.go", problems.MostWordsFound([]string{"hello world", "hello world", "hello world", "hello world"}))
+	t.Logf("%s: %d", "1282.", problems.GroupThePeople([]int{3, 3, 3, 3, 3, 1, 3}))
+	t.Logf("%s: %d", "1313. Decompress Run-Length Encoded List.go", problems.DecompressRLElist([]int{1, 2, 3, 4}))
+	t.Logf("%s: %d", "118. Pascal's Triangle.go", problems.Generate(5))
+
 }
