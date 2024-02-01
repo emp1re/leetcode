@@ -29,5 +29,7 @@ func TestProblems(t *testing.T) {
 	t.Logf("%s: %d", "1282.", problems.GroupThePeople([]int{3, 3, 3, 3, 3, 1, 3}))
 	t.Logf("%s: %d", "1313. Decompress Run-Length Encoded List.go", problems.DecompressRLElist([]int{1, 2, 3, 4}))
 	t.Logf("%s: %d", "118. Pascal's Triangle.go", problems.Generate(5))
-
+	t.Logf("%s: %d", "53. Maximum Subarray.go", problems.MaxSubArray([]int{-2, 1, -3, 4, -1, 2, 1, -5, 4}))
+	t.Logf("%s: %d", "1389. Create Target Array in the Given Order.go", problems.CreateTargetArray([]int{0, 1, 2, 3, 4}, []int{0, 1, 2, 2, 1}))
+	t.Logf("%s: %d", "1221. Split a String in Balanced Strings.go", problems.BalancedStringSplit("RLRRLLRLRL"))
 }
