@@ -2,7 +2,7 @@ package problems
 
 import "fmt"
 
-func len(list *ListNode) int {
+func lenList(list *ListNode) int {
 	count := 0
 	cur := list
 	for cur != nil {
@@ -11,7 +11,7 @@ func len(list *ListNode) int {
 	}
 	return count
 }
-func append(list *ListNode, val int) bool {
+func appendList(list *ListNode, val int) bool {
 	newNode := &ListNode{Val: val, Next: nil}
 	cur := list
 	for cur != nil {
@@ -30,10 +30,10 @@ func MergeTwoLists(list1 *ListNode, list2 *ListNode) *ListNode {
 		return list2
 	}
 	for curr2 != nil {
-		append(list1, curr2.Val)
+		appendList(list1, curr2.Val)
 		curr2 = curr2.Next
 	}
-	for i := 0; i < len(list1); i++ {
+	for i := 0; i < lenList(list1); i++ {
 		curr = list1
 		for curr.Next != nil {
 			if curr.Val > curr.Next.Val {

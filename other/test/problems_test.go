@@ -32,4 +32,8 @@ func TestProblems(t *testing.T) {
 	t.Logf("%s: %d", "53. Maximum Subarray.go", problems.MaxSubArray([]int{-2, 1, -3, 4, -1, 2, 1, -5, 4}))
 	t.Logf("%s: %d", "1389. Create Target Array in the Given Order.go", problems.CreateTargetArray([]int{0, 1, 2, 3, 4}, []int{0, 1, 2, 2, 1}))
 	t.Logf("%s: %d", "1221. Split a String in Balanced Strings.go", problems.BalancedStringSplit("RLRRLLRLRL"))
+	t.Logf("%s: %s", "2810. Faulty Keyboard.go", problems.FinalString("a#b#C#d#e#f#G#h#i#j#k#L#m#n#O#p#q#r#S#t#U#v#W#x#Y#z#"))
+	t.Logf("%s: %d", "2660. Determine the Winner of a Bowling Game.go", problems.IsWinner([]int{10, 10, 10, 10, 10, 10, 10, 10, 10, 5}, []int{10, 10, 10, 10, 10, 10, 10, 10, 10, 10}))
+	t.Logf("%s: %d", "771. Jewels and Stones.go", problems.NumJewelsInStones("aA", "aAAbbbb"))
+	t.Logf("%s: %d", "2006. Count Number of Pairs With Absolute Difference.go", problems.CountKDifference([]int{1, 2, 2, 1}, 1))
 }
