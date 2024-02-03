@@ -36,4 +36,9 @@ func TestProblems(t *testing.T) {
 	t.Logf("%s: %d", "2660. Determine the Winner of a Bowling Game.go", problems.IsWinner([]int{10, 10, 10, 10, 10, 10, 10, 10, 10, 5}, []int{10, 10, 10, 10, 10, 10, 10, 10, 10, 10}))
 	t.Logf("%s: %d", "771. Jewels and Stones.go", problems.NumJewelsInStones("aA", "aAAbbbb"))
 	t.Logf("%s: %d", "2006. Count Number of Pairs With Absolute Difference.go", problems.CountKDifference([]int{1, 2, 2, 1}, 1))
+	t.Logf("%s: %d", "804. Unique Morse Code Words.go", problems.UniqueMorseRepresentations([]string{"gin", "zen", "gig", "msg"}))
+	t.Logf("%s: %d", "2520. Count the Digits That Divide a Number", problems.CountDigits(1012))
+	t.Logf("%s: %d", "1342. Number of Steps to Reduce a Number to Zero.go", problems.NumberOfSteps(14))
+	t.Logf("%s: %d", "1486. XOR Operation in an Array.go", problems.XorOperation(5, 0))
+
 }
