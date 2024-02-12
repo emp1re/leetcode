@@ -40,5 +40,6 @@ func TestProblems(t *testing.T) {
 	t.Logf("%s: %d", "2520. Count the Digits That Divide a Number", problems.CountDigits(1012))
 	t.Logf("%s: %d", "1342. Number of Steps to Reduce a Number to Zero.go", problems.NumberOfSteps(14))
 	t.Logf("%s: %d", "1486. XOR Operation in an Array.go", problems.XorOperation(5, 0))
+	t.Logf("%s: %d", "2433. Find The Original Array of Prefix Xor", problems.FindArray([]int{6, 2, 7, 3}))
 
 }
