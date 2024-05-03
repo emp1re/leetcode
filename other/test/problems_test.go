@@ -41,5 +41,7 @@ func TestProblems(t *testing.T) {
 	t.Logf("%s: %d", "1342. Number of Steps to Reduce a Number to Zero.go", problems.NumberOfSteps(14))
 	t.Logf("%s: %d", "1486. XOR Operation in an Array.go", problems.XorOperation(5, 0))
 	t.Logf("%s: %d", "2433. Find The Original Array of Prefix Xor", problems.FindArray([]int{6, 2, 7, 3}))
+	t.Logf("%s: %d", "2367. Number of Arithmetic Triplets.go", problems.ArithmeticTriplets([]int{1, 2, 4, 6, 7, 10}, 3))
+	t.Logf("%s: %d", "238. Missing Number.go", problems.MissingNumber([]int{3, 0, 1}))
 
 }
