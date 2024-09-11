@@ -46,4 +46,6 @@ func TestProblems(t *testing.T) {
 	t.Logf("%s: %+v", "238. Missing Number.go", problems.MissingNumber([]int{3, 0, 1}))
 	t.Logf("%s: %+v", "283. Move Zeroes.go", assert.Equal(t, []int{1, 3, 12, 0, 0}, problems.MoveZeroes([]int{0, 1, 0, 3, 12})))
 	t.Logf("%s: %+v", "1502. Can Make Arithmetic Progression From Sequence", assert.Equal(t, true, problems.CanMakeArithmeticProgression([]int{3, 5, 1})))
+	t.Logf("%s: %+v", "518. Coin Change II.go", assert.Equal(t, 4, problems.Сhange(5, []int{1, 2, 5})))
+	t.Logf("%s: %+v", "349. Intersection of Two Arrays.go", assert.Equal(t, []int{2}, problems.Intersection([]int{1, 2, 2, 1}, []int{2, 2})))
 }
